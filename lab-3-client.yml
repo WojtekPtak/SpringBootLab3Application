@@ -1,4 +1,4 @@
-lucky-word: ["Irish", "Rabbit's Foot", "Serendipity"]
+lucky-word: "Irish"
 lucky-word2:
   - "Irish"
   - "Rabbit's Foot"
