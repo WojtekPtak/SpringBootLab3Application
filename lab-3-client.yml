@@ -1,0 +1,9 @@
+common:
+  level1:
+    wp1:  "wp1value"
+    wp2:  "wp2value"
+  level2:
+    test: "test from level2"
+special:
+  test2: "special test value"
+  test3:  1.34
