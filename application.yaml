@@ -2,12 +2,12 @@ eureka:
   client:
     serviceUrl:
       defaultZone:  http://localhost:8010/eureka/
-
+words: x,x,x,x,x
 ---
 spring:
   profiles: subject
   application:
-    name: "lab-4-subject"
+    name: lab-4-subject
 words: I,You,He,She,It
 
 ---
@@ -37,3 +37,9 @@ spring:
   application:
     name: "lab-4-noun"  
 words: boat,book,vote,seat,backpack,partition,groundhog
+---
+spring:
+  profiles: cold-noun
+  application:
+    name: "lab-4-noun"   
+words: icicle,refrigerator,blizzard,snowball
